@@ -1,0 +1,28 @@
+{
+    "datasetGeneratorName": "Benedikt2020b",
+    "repetitionsCount": 1,
+    "randomSeed": 42,
+    "specializedPrescription": {
+        "jobsCounts": [100],
+        "horizonMultipliers": [1.3],
+        "processingTimesProviders": [
+            {
+                "name": "Groups",
+                "config": {
+                    "processingTimes": [3, 6, 12]
+                }
+            }
+        ],
+        "stateDiagrams": ["Aghelinejad2017a"],
+        "energyCostsProviders": [
+            {
+                "name": "File",
+                "repeatCount": [3],
+                "config": {
+                    "fileName": "ote2019.json",
+                    "fromDate": "2019-05-01T00:00:00"
+                }
+            }
+        ]
+    }
+}

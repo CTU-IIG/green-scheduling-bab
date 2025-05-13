@@ -1,0 +1,30 @@
+{
+    "datasetGeneratorName": "Benedikt2020b_2",
+    "repetitionsCount": 1,
+    "randomSeed": 42,
+    "specializedPrescription": {
+        "fixedHorizonLengths": [100, 200],
+        "utilizations": [0.5, 0.9], 
+        "processingTimesProviders": [
+            {
+                "name": "Uniform",
+                "config": {
+                    "minProcessingTime": 1,
+                    "maxProcessingTime": 10
+                }
+            },
+        ],
+        "stateDiagrams": ["Aghelinejad2017a"],
+        "energyCostsProviders": [
+            {
+                "name": "Uniform",
+                "repeatCount": [1],
+                "hopsCount": [0],
+                "config": {
+                    "minEnergyCost": 1,
+                    "maxEnergyCost": 10
+                }
+            },
+        ]
+    }
+}

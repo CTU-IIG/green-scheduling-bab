@@ -1,0 +1,23 @@
+{
+    "datasetGeneratorName": "Aghelinejad2017a",
+    "repetitionsCount": 1,
+    "randomSeed": 42,
+    "specializedPrescription": {
+        "instanceSizes": [
+            { "jobsCount": 5, "intervalsCount": 23 },
+            { "jobsCount": 10, "intervalsCount": 48 },
+            { "jobsCount": 15, "intervalsCount": 59 },
+            { "jobsCount": 20, "intervalsCount": 72 },
+            { "jobsCount": 25, "intervalsCount": 92 },
+            { "jobsCount": 30, "intervalsCount": 107 },
+            { "jobsCount": 35, "intervalsCount": 126 },
+            { "jobsCount": 40, "intervalsCount": 134 },
+            { "jobsCount": 45, "intervalsCount": 153 },
+            { "jobsCount": 50, "intervalsCount": 172 },
+            { "jobsCount": 55, "intervalsCount": 191 },
+            { "jobsCount": 60, "intervalsCount": 213 }
+        ],
+        "maxProcessingTime": 5,
+        "maxEnergyCost": 10
+    }
+}

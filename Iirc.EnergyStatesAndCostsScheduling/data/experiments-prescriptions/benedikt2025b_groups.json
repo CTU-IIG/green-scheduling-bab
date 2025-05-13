@@ -1,0 +1,34 @@
+{
+    "datasetNames": ["benedikt2025b_groups"],
+    "globalConfig": {
+        "randomSeed": 41,
+        "numWorkers": 0,
+        "timeLimit": "00:10:00"
+    },
+    "solvers": [
+        {
+            "id": "BAB",
+            "solverName": "BranchAndBoundJob",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+                "usePrimalHeuristicBlockDetection": true,
+                "usePrimalHeuristicPackToBlocksByCp": true,
+		"primalHeuristicPackToBlocksByCpAllJobs": true,
+                "jobsJoiningOnGcd": "WholeTree"
+            }
+        },
+        {
+            "id": "ILP-SPACES",
+            "solverName": "IlpSpaces",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+                "forbidConsecutiveGaps": false,
+                "pruneByUpperBound": false,
+                "forceJobsOrdering": false,
+                "relaxedJobsOrdering": false,
+                "pruneByLinearRelaxation": false,
+                "sparsifyMatrix": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "datasetGeneratorName": "Benedikt2020a",
+    "repetitionsCount": 6,
+    "randomSeed": 42,
+    "specializedPrescription": {
+        "jobsCounts": [30, 60],
+        "horizonMultipliers": [1.2],
+        "maxProcessingTime": [5],
+        "maxEnergyCost": 10,
+        "stateDiagrams": ["Aghelinejad2017a"]
+    }
+}

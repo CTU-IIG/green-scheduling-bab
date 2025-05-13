@@ -1,0 +1,33 @@
+{
+    "datasetGeneratorName": "Benedikt2020b",
+    "repetitionsCount": 20,
+    "randomSeed": 42,
+    "specializedPrescription": {
+        "jobsCounts": [100],
+        "horizonMultipliers": [1.3],
+        "processingTimesProviders": [
+            { "name": "Groups", "config": { "processingTimes": [4,5] } }
+        ],
+        "stateDiagrams": ["Benedikt2020aTwosby"],
+        "energyCostsProviders": [
+            {
+                "name": "Uniform",
+                "repeatCount": [1],
+		"dropsCount": [0, 50, 100, 150, 200, 250],
+                "config": {
+                    "minEnergyCost": 50,
+                    "maxEnergyCost": 100
+                }
+            },
+            {
+                "name": "Uniform",
+                "repeatCount": [1],
+		"dropsCount": [0, 50, 100, 150, 200, 250],
+                "config": {
+                    "minEnergyCost": 50,
+                    "maxEnergyCost": 50
+                }
+            }
+        ]
+    }
+}

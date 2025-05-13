@@ -1,0 +1,373 @@
+{
+    "datasetNames": ["benedikt2025a_prelim"],
+    "globalConfig": {
+        "randomSeed": 41,
+        "numWorkers": 0,
+        "timeLimit": "00:10:00"
+    },
+    "solvers": [
+        {
+            "id": "ILP-SPACES",
+            "solverName": "IlpSpaces",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+            }
+        },
+        {
+            "id": "CP-Optional-Fixed-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Optional",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-Optional-Fixed-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Optional",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-Optional-Fixed-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Optional",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-Optional-Free-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Optional",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-Optional-Free-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Optional",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-Optional-Free-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Optional",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-Optional-No",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Optional",
+              "gapsInObjectiveModelling": "No",
+            }
+          },
+          {
+            "id": "CP-Logical-Fixed-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Logical",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-Logical-Fixed-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Logical",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-Logical-Fixed-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Logical",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-Logical-Free-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Logical",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-Logical-Free-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Logical",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-Logical-Free-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Logical",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-Logical-No",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Logical",
+              "gapsInObjectiveModelling": "No",
+            }
+          },
+          {
+            "id": "CP-Element-Fixed-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Element",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-Element-Fixed-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Element",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-Element-Fixed-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Element",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-Element-Free-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Element",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-Element-Free-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Element",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-Element-Free-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Element",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-Element-No",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Element",
+              "gapsInObjectiveModelling": "No",
+            }
+          },
+          {
+            "id": "CP-Overlap-Fixed-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Overlap",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-Overlap-Fixed-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Overlap",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-Overlap-Fixed-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Overlap",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-Overlap-Free-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Overlap",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-Overlap-Free-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Overlap",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-Overlap-Free-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Overlap",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-Overlap-No",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Overlap",
+              "gapsInObjectiveModelling": "No",
+            }
+          },
+          {
+            "id": "CP-StepFunction-Fixed-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "StepFunction",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-StepFunction-Fixed-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "StepFunction",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-StepFunction-Fixed-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "StepFunction",
+              "gapsInObjectiveModelling": "Fixed",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-StepFunction-Free-SumLengths",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "StepFunction",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "SumLengths"
+            }
+          },
+          {
+            "id": "CP-StepFunction-Free-Pulse",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "StepFunction",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "Pulse"
+            }
+          },
+          {
+            "id": "CP-StepFunction-Free-StartOfNext",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "StepFunction",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "StartOfNext"
+            }
+          },
+          {
+            "id": "CP-StepFunction-No",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "StepFunction",
+              "gapsInObjectiveModelling": "No",
+            }
+          },
+          {
+            "id": "CP-Element-Free-SumLengths-FDS16",
+            "solverName": "CpGeneral",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+              "jobInObjectiveModelling": "Element",
+              "gapsInObjectiveModelling": "Free",
+              "fillAllModelling": "SumLengths",
+              "failureDirectedSearchEmphasis": 16.0
+            }
+          },
+    ]
+}

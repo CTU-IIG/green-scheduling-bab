@@ -1,0 +1,24 @@
+{
+    "datasetNames": ["benedikt2025_groups"],
+    "globalConfig": {
+        "randomSeed": 41,
+        "numWorkers": 0,
+        "timeLimit": "00:10:00"
+    },
+    "solvers": [
+        {
+            "id": "BAB_default",
+            "solverName": "BranchAndBoundJob",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+                "usePrimalHeuristicBlockDetection": true,
+                "usePrimalHeuristicPackToBlocksByCp": false,
+                "primalHeuristicPackToBlocksByCpAllJobs": false,
+                "UseIterativeDeepening": false,
+                "PrimalHeuristicBlockFinding": true,
+                "BranchPriority": "ForcedSpace",
+                "jobsJoiningOnGcd": "WholeTree"
+            }
+        }
+    ]
+}

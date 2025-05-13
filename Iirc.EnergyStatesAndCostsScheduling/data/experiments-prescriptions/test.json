@@ -1,0 +1,24 @@
+{
+    "datasetNames": ["benedikt2025b_test"],
+    "globalConfig": {
+        "randomSeed": 41,
+        "numWorkers": 0,
+        "timeLimit": "01:00:00",
+        "useSerializedExtendedInstance": true,
+    },
+    "solvers": [
+        {
+            "id": "ILP-SPACES",
+            "solverName": "IlpSpaces",
+            "substractExtendedInstanceGenerationFromTimeLimit": true,
+            "specializedSolverConfig": {
+                "forbidConsecutiveGaps": false,
+                "pruneByUpperBound": false,
+                "forceJobsOrdering": false,
+                "relaxedJobsOrdering": false,
+                "pruneByLinearRelaxation": false,
+                "sparsifyMatrix": false
+            }
+        }
+    ]
+}
