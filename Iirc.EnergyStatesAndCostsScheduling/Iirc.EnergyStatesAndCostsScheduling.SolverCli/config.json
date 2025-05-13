@@ -1,0 +1,57 @@
+{
+  "randomSeed": 50,
+  "timeLimit": "00:01:00",
+  "numWorkers": 0,
+  "useSerializedExtendedInstance": false,
+  
+//  "initStartTimes": [{"JobIndex":0,"StartTime":577},{"JobIndex":1,"StartTime":573},{"JobIndex":2,"StartTime":545},{"JobIndex":3,"StartTime":533},{"JobIndex":4,"StartTime":569},{"JobIndex":5,"StartTime":524},{"JobIndex":6,"StartTime":565},{"JobIndex":7,"StartTime":561},{"JobIndex":8,"StartTime":557},{"JobIndex":9,"StartTime":519},{"JobIndex":10,"StartTime":511},{"JobIndex":11,"StartTime":538},{"JobIndex":12,"StartTime":491},{"JobIndex":13,"StartTime":529},{"JobIndex":14,"StartTime":496},{"JobIndex":15,"StartTime":463},{"JobIndex":16,"StartTime":439},{"JobIndex":17,"StartTime":484},{"JobIndex":18,"StartTime":426},{"JobIndex":19,"StartTime":414},{"JobIndex":20,"StartTime":468},{"JobIndex":21,"StartTime":387},{"JobIndex":22,"StartTime":382},{"JobIndex":23,"StartTime":459},{"JobIndex":24,"StartTime":373},{"JobIndex":25,"StartTime":361},{"JobIndex":26,"StartTime":455},{"JobIndex":27,"StartTime":333},{"JobIndex":28,"StartTime":444},{"JobIndex":29,"StartTime":435},{"JobIndex":30,"StartTime":431},{"JobIndex":31,"StartTime":419},{"JobIndex":32,"StartTime":328},{"JobIndex":33,"StartTime":410},{"JobIndex":34,"StartTime":403},{"JobIndex":35,"StartTime":399},{"JobIndex":36,"StartTime":323},{"JobIndex":37,"StartTime":307},{"JobIndex":38,"StartTime":298},{"JobIndex":39,"StartTime":395},{"JobIndex":40,"StartTime":293},{"JobIndex":41,"StartTime":378},{"JobIndex":42,"StartTime":366},{"JobIndex":43,"StartTime":357},{"JobIndex":44,"StartTime":316},{"JobIndex":45,"StartTime":281},{"JobIndex":46,"StartTime":272},{"JobIndex":47,"StartTime":312},{"JobIndex":48,"StartTime":256},{"JobIndex":49,"StartTime":303},{"JobIndex":50,"StartTime":289},{"JobIndex":51,"StartTime":277},{"JobIndex":52,"StartTime":264},{"JobIndex":53,"StartTime":252},{"JobIndex":54,"StartTime":243},{"JobIndex":55,"StartTime":248},{"JobIndex":56,"StartTime":218},{"JobIndex":57,"StartTime":239},{"JobIndex":58,"StartTime":235},{"JobIndex":59,"StartTime":231},{"JobIndex":60,"StartTime":202},{"JobIndex":61,"StartTime":194},{"JobIndex":62,"StartTime":227},{"JobIndex":63,"StartTime":223},{"JobIndex":64,"StartTime":214},{"JobIndex":65,"StartTime":187},{"JobIndex":66,"StartTime":182},{"JobIndex":67,"StartTime":177},{"JobIndex":68,"StartTime":172},{"JobIndex":69,"StartTime":168},{"JobIndex":70,"StartTime":152},{"JobIndex":71,"StartTime":156},{"JobIndex":72,"StartTime":143},{"JobIndex":73,"StartTime":148},{"JobIndex":74,"StartTime":138},{"JobIndex":75,"StartTime":129},{"JobIndex":76,"StartTime":133},{"JobIndex":77,"StartTime":119},{"JobIndex":78,"StartTime":105},{"JobIndex":79,"StartTime":124},{"JobIndex":80,"StartTime":101},{"JobIndex":81,"StartTime":92},{"JobIndex":82,"StartTime":114},{"JobIndex":83,"StartTime":109},{"JobIndex":84,"StartTime":72},{"JobIndex":85,"StartTime":87},{"JobIndex":86,"StartTime":53},{"JobIndex":87,"StartTime":79},{"JobIndex":88,"StartTime":62},{"JobIndex":89,"StartTime":57},{"JobIndex":90,"StartTime":44},{"JobIndex":91,"StartTime":34},{"JobIndex":92,"StartTime":30},{"JobIndex":93,"StartTime":26},{"JobIndex":94,"StartTime":48},{"JobIndex":95,"StartTime":22},{"JobIndex":96,"StartTime":18},{"JobIndex":97,"StartTime":5},{"JobIndex":98,"StartTime":14},{"JobIndex":99,"StartTime":10}],
+  //"initStartTimesFromResult": "result.json",
+
+//  "solverName": "IlpSpaces",
+//  "specializedSolverConfig": {
+//    "forbidConsecutiveGaps": false,
+//    "pruneByUpperBound": false,
+//    "forceJobsOrdering": false,
+//    "relaxedJobsOrdering": false,
+//    "pruneByLinearRelaxation": false,
+//    "sparsifyMatrix": false
+//  },
+
+//    "solverName": "CpGeneral",
+//    "specializedSolverConfig": {
+//      "failureDirectedSearchEmphasis": 2.0
+//    },
+
+  "solverName": "BranchAndBoundJob",
+  "specializedSolverConfig": {
+    "usePrimalHeuristicBlockDetection": false,
+    "usePrimalHeuristicPackToBlocksByCp": true,
+    "primalHeuristicPackToBlocksByCpAllJobs": false,
+    "primalHeuristicBlockFinding": "Off",
+    "primalHeuristicBlockFindingStrategy": "MinimizeLengthDifference",
+    "jobsJoiningOnGcd": "WholeTree",
+    "branchPriority": "ForcedSpace",
+    "useIterativeDeepening": false,
+    "iterativeDeepeningTimeLimit": "00:00:20",
+    "fullHorizonBabNodesCountLimit": null,
+  },
+
+//  "solverName": "ConstructiveHeuristic",
+//  "specializedSolverConfig": {
+//    "algorithm": "AllPositions",
+//    "jobsOrdering": "Random"
+//  },
+
+//  "solverName": "GeneticAlgorithm",
+//  "specializedSolverConfig": {
+//    "generationsCount": 10000,
+//    "populationSize": 20,
+//    "eliteCount": 10,
+//    "crossoverFraction": 0.7,
+//    "crossoverStrategy": "TwoPoint",
+//    "mutationStrategy": "Swap",
+//    "mutationRate": 0.4,
+//    "bestStallMax": 10000,
+//    "averageStallMax": 10000,
+//  }
+}

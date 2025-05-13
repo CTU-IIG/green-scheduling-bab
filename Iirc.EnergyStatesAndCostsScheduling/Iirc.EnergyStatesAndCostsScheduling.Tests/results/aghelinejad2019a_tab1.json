@@ -1,0 +1,10 @@
+{
+  "Status": 3,
+  "TimeLimitReached": false,
+  "RunningTime": "00:01",
+  "StartTimes": [
+    { "JobIndex": 0, "StartTime": 3 },
+    { "JobIndex": 1, "StartTime": 5 },
+    { "JobIndex": 2, "StartTime": 6 }
+  ]
+}

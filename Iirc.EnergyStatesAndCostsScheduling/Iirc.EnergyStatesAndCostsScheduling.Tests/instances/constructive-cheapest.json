@@ -1,0 +1,22 @@
+{
+    "MachinesCount": 1,
+    "Jobs": [
+        { "Id": 0, "MachineIdx": 0, "ProcessingTime": 2 },
+        { "Id": 1, "MachineIdx": 0, "ProcessingTime": 4 }
+    ],
+    "EnergyCosts": [0, 0, 0, 1, 1, 1, 0, 0, 100, 100, 100, 100, 0, 0],
+    "LengthInterval": 1,
+    "OffOnTime": [2],
+    "OnOffTime": [1],
+    "OffOnPowerConsumption": [8],
+    "OnOffPowerConsumption": [1],
+    "OffIdleTime": [null],
+    "IdleOffTime": [null],
+    "OffIdlePowerConsumption": [null],
+    "IdleOffPowerConsumption": [null],
+    "OnPowerConsumption": 6,
+    "IdlePowerConsumption": 2,
+    "OffPowerConsumption": [0],
+    "Metadata": {
+    }
+}

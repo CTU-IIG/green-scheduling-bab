@@ -1,0 +1,26 @@
+{
+    "MachinesCount": 1,
+    "Jobs": [
+        { "Id": 0, "MachineIdx": 0, "ProcessingTime": 3 },
+        { "Id": 1, "MachineIdx": 0, "ProcessingTime": 2 },
+        { "Id": 2, "MachineIdx": 0, "ProcessingTime": 4 },
+        { "Id": 3, "MachineIdx": 0, "ProcessingTime": 2 },
+        { "Id": 4, "MachineIdx": 0, "ProcessingTime": 3 }
+    ],
+    "EnergyCosts": [0, 8, 8, 8, 4, 4, 4, 3, 3, 3, 2, 2, 2, 2, 2, 10, 10, 10, 10, 3, 3, 3, 2, 2, 2, 2, 6, 6, 3, 3, 3, 5, 5],
+    "LengthInterval": 1,
+    "OffOnTime": [2],
+    "OnOffTime": [1],
+    "OffOnPowerConsumption": [5],
+    "OnOffPowerConsumption": [1],
+    "OffIdleTime": [null],
+    "IdleOffTime": [null],
+    "OffIdlePowerConsumption": [null],
+    "IdleOffPowerConsumption": [null],
+    "OnPowerConsumption": 4,
+    "IdlePowerConsumption": 2,
+    "OffPowerConsumption": [0],
+    "Metadata": {
+        "Description": "Taken from 'Complexity analysis of energy-efficient single machine scheduling problems', https://doi.org/10.1016/j.orp.2019.100105, Figure 2"
+    }
+}

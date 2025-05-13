@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PackageId>Iirc.Utils</PackageId>
+    <Version>0.10.0</Version>
+    <Authors>István Módos</Authors>
+    <Company>Czech Technical University in Prague</Company>
+    <RepositoryUrl>https://github.com/CTU-IIG/Iirc.Utils</RepositoryUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/CTU-IIG/Iirc.Utils/master/LICENSE.txt</PackageLicenseUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+</Project>

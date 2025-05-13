@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Gurobi.Optimizer" Version="10.0.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="../../Iirc.Utils.Gurobi\Iirc.Utils.Gurobi\Iirc.Utils.Gurobi.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="../../Iirc.Utils/Iirc.Utils/Iirc.Utils.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="python\**\*" Link="python\%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="cpp\bin\*" Link="cpp\bin\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+</Project>

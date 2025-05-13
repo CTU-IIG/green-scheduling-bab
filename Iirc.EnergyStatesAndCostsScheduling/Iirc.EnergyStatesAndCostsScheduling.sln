@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iirc.EnergyStatesAndCostsScheduling.Shared", "Iirc.EnergyStatesAndCostsScheduling.Shared\Iirc.EnergyStatesAndCostsScheduling.Shared.csproj", "{3703C220-0838-479B-B960-F7315D4E7473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iirc.EnergyStatesAndCostsScheduling.SolverCli", "Iirc.EnergyStatesAndCostsScheduling.SolverCli\Iirc.EnergyStatesAndCostsScheduling.SolverCli.csproj", "{81C09EA1-4148-4261-8F02-C077CC34E9EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iirc.EnergyStatesAndCostsScheduling.Tests", "Iirc.EnergyStatesAndCostsScheduling.Tests\Iirc.EnergyStatesAndCostsScheduling.Tests.csproj", "{48857041-1FAC-4123-BD81-B8F75C190DA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iirc.EnergyStatesAndCostsScheduling.DatasetGenerators", "Iirc.EnergyStatesAndCostsScheduling.DatasetGenerators\Iirc.EnergyStatesAndCostsScheduling.DatasetGenerators.csproj", "{A17C6934-2A0D-4DBB-A27C-CEF752013DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iirc.EnergyStatesAndCostsScheduling.Experiments", "Iirc.EnergyStatesAndCostsScheduling.Experiments\Iirc.EnergyStatesAndCostsScheduling.Experiments.csproj", "{05B78059-CE1C-4019-AE0B-EB0D08AE8416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleGenerator", "ExampleGenerator\ExampleGenerator.csproj", "{3A5B73CF-55EA-4CEB-B863-9641A59A2FFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3703C220-0838-479B-B960-F7315D4E7473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3703C220-0838-479B-B960-F7315D4E7473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3703C220-0838-479B-B960-F7315D4E7473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3703C220-0838-479B-B960-F7315D4E7473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C09EA1-4148-4261-8F02-C077CC34E9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C09EA1-4148-4261-8F02-C077CC34E9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C09EA1-4148-4261-8F02-C077CC34E9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C09EA1-4148-4261-8F02-C077CC34E9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48857041-1FAC-4123-BD81-B8F75C190DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48857041-1FAC-4123-BD81-B8F75C190DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48857041-1FAC-4123-BD81-B8F75C190DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48857041-1FAC-4123-BD81-B8F75C190DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17C6934-2A0D-4DBB-A27C-CEF752013DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17C6934-2A0D-4DBB-A27C-CEF752013DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17C6934-2A0D-4DBB-A27C-CEF752013DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17C6934-2A0D-4DBB-A27C-CEF752013DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B78059-CE1C-4019-AE0B-EB0D08AE8416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B78059-CE1C-4019-AE0B-EB0D08AE8416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B78059-CE1C-4019-AE0B-EB0D08AE8416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B78059-CE1C-4019-AE0B-EB0D08AE8416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5B73CF-55EA-4CEB-B863-9641A59A2FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5B73CF-55EA-4CEB-B863-9641A59A2FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5B73CF-55EA-4CEB-B863-9641A59A2FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5B73CF-55EA-4CEB-B863-9641A59A2FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

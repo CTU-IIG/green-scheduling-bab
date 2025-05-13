@@ -1,0 +1,4 @@
+Ondřej Benedikt <ondrej.benedikt@cvut.cz>, <benedond@fel.cvut.cz>
+István Módos <istvan.modos@cvut.cz>, <modosist@fel.cvut.cz>
+Antonín Novák <antonin.novak@cvut.cz>, <antonin.novak@cvut.cz>
+Zdeněk Hanzálek <zdenek.hanzalek@cvut.cz>, <hanzalek@fel.cvut.cz>
