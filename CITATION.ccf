@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: Benedikt
+    given-names: Ondřej
+  - family-names: Módos
+    given-names: István
+  - family-names: Novak
+    given-names: Antonin
+  - family-names: Hanzálek
+    given-names: Zdeněk
+title: "Green scheduling with time-of-use tariffs and machine states: Optimizing energy cost via branch-and-bound and bin packing strategies"
+journal: "European Journal of Operational Research"
+publisher: Elsevier BV
+type: article
+doi: 10.1016/j.ejor.2025.06.026
+url: "http://dx.doi.org/10.1016/j.ejor.2025.06.026"
+issn: "0377-2217"
+date-published: 2025-07
