@@ -1,6 +1,6 @@
 # Energy States and Costs Scheduling
 
-This repository contains the source code for the scheduling problem with energy states and costs studied in [\[Benedikt2025\]].
+This repository contains the source code for the scheduling problem with energy states and costs studied in [Benedikt2025].
 ## Dependencies
 
 You need the following
@@ -156,8 +156,25 @@ Please see file [AUTHORS.txt](AUTHORS.txt) for the list of authors.
 
 <a name="Benedikt2020a">[\[Benedikt2020a\]](https://www.researchgate.net/publication/337781297_Power_of_Pre-Processing_Production_Scheduling_with_Variable_Energy_Pricing_and_Power-Saving_States)</a> Ondřej Benedikt, István Módos & Zdeněk Hanzálek (2020) Power of Pre-Processing: Production Scheduling with Variable Energy Pricing and Power-Saving States, CPAIOR2020
 
-[\[Benedikt2025\]](TODO) Ondřej Benedikt, István Módos, Antonin Novak & Zdeněk Hanzálek (under revision)
+[\[Benedikt2025\]](TODO) Ondřej Benedikt, István Módos, Antonin Novak, Zdeněk Hanzálek,
+Green scheduling with time-of-use tariffs and machine states: Optimizing energy cost via branch-and-bound and bin packing strategies,
+European Journal of Operational Research, 2025, ISSN 0377-2217, https://doi.org/10.1016/j.ejor.2025.06.026.
 
 ## <a name="citing"></a>Citing
 
-TODO
+Ondřej Benedikt, István Módos, Antonin Novak, Zdeněk Hanzálek,
+Green scheduling with time-of-use tariffs and machine states: Optimizing energy cost via branch-and-bound and bin packing strategies,
+European Journal of Operational Research, 2025, ISSN 0377-2217, https://doi.org/10.1016/j.ejor.2025.06.026.
+
+```
+@article{Benedikt_2025,
+   title={Green scheduling with time-of-use tariffs and machine states: Optimizing energy cost via branch-and-bound and bin packing strategies},
+   ISSN={0377-2217},
+   url={http://dx.doi.org/10.1016/j.ejor.2025.06.026},
+   DOI={10.1016/j.ejor.2025.06.026},
+   journal={European Journal of Operational Research},
+   publisher={Elsevier BV},
+   author={Benedikt, Ondřej and Módos, István and Novak, Antonin and Hanzálek, Zdeněk},
+   year={2025},
+   month=jul }
+```
